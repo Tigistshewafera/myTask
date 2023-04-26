@@ -5,7 +5,7 @@
 ![fibonacci_timing_0_to_15](https://user-images.githubusercontent.com/130226521/234500669-0ae0621f-55a9-4ebb-8db7-e4943610107a.png)
 
 
-n,recursive,dynamic
+### n,recursive,dynamic
 
 0,6.329999999987734e-05,7.570000000001187e-05
 
@@ -37,7 +37,7 @@ n,recursive,dynamic
 
 14,0.004092800000000452,1.4099999999572788e-05
 
-## Logger method for the GC calc project
+## Logger method for the GC#calc project
 
 ### GC frequency for human
 Average GC % = <70.05512368618675>
@@ -70,17 +70,18 @@ project log file is <C:\Users\dbu\AP\day8T\complexity project\logfiles\mature__2
 debug mode is on
 
 ### Logo plots for all miRNAs for human
-# Number of mature__uniqseeds for hsa
-#load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
+#### Number of mature__uniqseeds for hsa
+####load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
 loaded <48885> sequences and kept <2656> with species code [hsa]
 2656
-#get unique seed sequences from sequence list
+####get unique seed sequences from sequence list
 seed region is defined to run from <2>--><8>
 found <2094> unique seed sequences
-# mature__uniqseeds_logoplt
+### mature__uniqseeds_logoplt
 ![mature__uniqseeds_logoplt](https://user-images.githubusercontent.com/130226521/234336299-84d090e8-7bdf-4dec-8ee6-c7add911f36d.png)
 
-          A         C         G         T
+### GCcalc frequency for hsa
+A         C         G         T
 0  0.249284  0.236867  0.282235  0.231614
 1  0.244986  0.227794  0.295129  0.232092
 2  0.205826  0.247373  0.346705  0.200096
@@ -89,17 +90,18 @@ found <2094> unique seed sequences
 5  0.239733  0.244031  0.278415  0.237822
 6  0.217287  0.267431  0.256447  0.258835
 ### Logo plots for all miRNAs for mouse
-# Number of mature__uniqseeds for mmu
-# load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa> 
+#### Number of mature__uniqseeds for mmu
+#### load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa> 
 loaded <48885> sequences and kept <1978> with species code [mmu] 
 1978
-# get unique seed sequences from sequence list 
+#### get unique seed sequences from sequence list 
 seed region is defined to run from <2>--><8>
 found <1588> unique seed sequences
-# mature__uniqseeds_logoplt
+### mature__uniqseeds_logoplt
 ![mature__uniqseeds_logoplt](https://user-images.githubusercontent.com/130226521/234571089-7b16eb8e-6278-4626-85cc-d19224f69249.png)
 
-          A         C         G         T
+  ### GCcalc frequency for mmu
+  A         C         G         T
 0  0.241814  0.243703  0.291562  0.222922
 1  0.236146  0.211587  0.301008  0.251259
 2  0.205919  0.250630  0.335013  0.208438
@@ -108,16 +110,18 @@ found <1588> unique seed sequences
 5  0.217254  0.246851  0.301008  0.234887
 6  0.212217  0.270151  0.253778  0.263854
 ### Logo plots for all miRNAs for rat
-# Number of mature__uniqseeds for rno
+#### Number of mature__uniqseeds for rno
 load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
 loaded <48885> sequences and kept <764> with species code [rno]
 764
-# get unique seed sequences from sequence list
+#### get unique seed sequences from sequence list
 seed region is defined to run from <2>--><8>
 found <635> unique seed sequences
-# mature__uniqseeds_logoplt
+### mature__uniqseeds_logoplt
 ![mature__uniqseeds_logoplt](https://user-images.githubusercontent.com/130226521/234520356-21229cf1-69c9-44d1-ba6e-7f840a646ee8.png)
-          A         C         G         T
+  
+  ### GCcalc frequency for rno     
+       A         C         G         T
 0  0.277165  0.223622  0.288189  0.211024
 1  0.251969  0.220472  0.270866  0.256693
 2  0.242520  0.237795  0.307087  0.212598
