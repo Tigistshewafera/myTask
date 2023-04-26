@@ -60,7 +60,7 @@ project log file is <C:\Users\dbu\AP\day8T\complexity project\logfiles\mature__2
 debug mode is on
 
 ##### GC frequency for rat
-average GC % = <67.4683526671524>
+Average GC % = <67.4683526671524>
 The number of sequences are:  764
 fasta file is <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
 speciesCode is <rno>
@@ -97,7 +97,7 @@ loaded <48885> sequences and kept <1978> with species code [mmu]
 seed region is defined to run from <2>--><8>
 found <1588> unique seed sequences
 # mature__uniqseeds_logoplt
-![mature__uniqseeds_logoplt](https://user-images.githubusercontent.com/130226521/234520096-be1da924-483c-434e-b9e2-de31f7bcf7b1.png)
+![mature__uniqseeds_logoplt](https://user-images.githubusercontent.com/130226521/234571089-7b16eb8e-6278-4626-85cc-d19224f69249.png)
 
           A         C         G         T
 0  0.241814  0.243703  0.291562  0.222922
