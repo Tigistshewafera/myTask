@@ -1,0 +1,5 @@
+---
+ fasta_file: 'C:\\Users\dbu\AP\day6\data\matureday6.fa'
+ species_code: 'hsa'
+ seed_begin: 2
+ seed_end: 8
