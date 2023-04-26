@@ -1,11 +1,11 @@
 # myTask
-## Logger method for the complexity project
-###fibonacci_timing_0_to_15
+# Logger method for the complexity project
+## fibonacci_timing_0_to_15
 
 ![fibonacci_timing_0_to_15](https://user-images.githubusercontent.com/130226521/234500669-0ae0621f-55a9-4ebb-8db7-e4943610107a.png)
 
 
-### n,recursive,dynamic
+## n,recursive,dynamic
 
 0,6.329999999987734e-05,7.570000000001187e-05
 
@@ -37,9 +37,9 @@
 
 14,0.004092800000000452,1.4099999999572788e-05
 
-## Logger method for the GC#calc project
+# Logger method for the GCcalc project
 
-### GC frequency for human
+## GC frequency for human
 Average GC % = <70.05512368618675>
 The number of sequences are:  2656
 fasta file is <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
@@ -49,7 +49,7 @@ project log file is <C:\Users\dbu\AP\day8T\complexity project\logfiles\mature__2
 +******************************************************************************+
 debug mode is on
 
-#### GC frequency for mouse
+### GC frequency for mouse
 Average GC % = <70.50310821391368>
 The number of sequences are:  1978
 fasta file is <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
@@ -59,7 +59,7 @@ project log file is <C:\Users\dbu\AP\day8T\complexity project\logfiles\mature__2
 +******************************************************************************+
 debug mode is on
 
-##### GC frequency for rat
+### GC frequency for rat
 Average GC % = <67.4683526671524>
 The number of sequences are:  764
 fasta file is <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
@@ -71,7 +71,7 @@ debug mode is on
 
 ### Logo plots for all miRNAs for human
 #### Number of mature__uniqseeds for hsa
-####load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
+#### load sequences from fasta file <C:\Users\dbu\AP\day8T\GCcalc-project\mature.fa>
 loaded <48885> sequences and kept <2656> with species code [hsa]
 2656
 ####get unique seed sequences from sequence list
