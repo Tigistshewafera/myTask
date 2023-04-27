@@ -119,16 +119,13 @@ def getNucleotideFrequencyMatrix(uniqSeedSeqs):
     '''
     calculate nucleotide frequencies at each position
     '''
-       
-
     if uniqSeedSeqs is None:
         raise ValueError("Input 'uniqSeedSeqs' is None.")
     if not isinstance(uniqSeedSeqs, (list, tuple)):
         raise ValueError("Input 'uniqSeedSeqs' must be a list or tuple.")
     if not all(isinstance(seq, str) for seq in uniqSeedSeqs):
         raise ValueError("Input 'uniqSeedSeqs' must contain only strings.")
-    
-
+  
     lntFrequencies = []
     n = 0
     while n <= seedEnd - seedBegin:
@@ -158,7 +155,6 @@ def getNucleotideFrequencyMatrix(uniqSeedSeqs):
     return dfNTFrequencies
 
 def generateLogoPlot(dfNTFrequencies):
-
     import logomaker as lm
     import matplotlib.pyplot as plt
     from pathlib import Path
