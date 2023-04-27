@@ -16,6 +16,9 @@ import sys
 import os 
 import hashlib
 from pathlib import Path
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
 
 import logging
 logger = logging.getLogger(__name__) 
@@ -95,9 +98,6 @@ def timeSimpleVersusDynamicFibo(nMax):
         n+=1
     return fibonacciTimes
 def generateTimingPlot(fibonacciTimes, nmax):
-    import seaborn as sns
-    import pandas as pd
-    import matplotlib.pyplot as plt
     dfFibonacciTimes = pd.DataFrame(fibonacciTimes)
     dfMelt = dfFibonacciTimes.melt(id_vars=['n'], value_vars=['simple','dynamic'])
     #sns.lineplot(data=dfMelt, x="n", y="simple", hue='variable')
